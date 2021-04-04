@@ -7,12 +7,12 @@
 
     <fragment
         android:id="@+id/cadastroFragment"
-        android:name="com.example.meuseventos.ui.cadastro.CadastroFragment"
+        android:name="com.project.meuseventos.ui.cadastro.CadastroFragment"
         android:label="cadastro_fragment"
         tools:layout="@layout/cadastro_fragment" />
     <fragment
         android:id="@+id/formFragment"
-        android:name="com.example.meuseventos.ui.form.FormFragment"
+        android:name="com.project.meuseventos.ui.form.FormFragment"
         android:label="form_fragment"
         tools:layout="@layout/form_fragment" >
         <action
@@ -21,7 +21,7 @@
     </fragment>
     <fragment
         android:id="@+id/listFragment"
-        android:name="com.example.meuseventos.ui.list.ListFragment"
+        android:name="com.project.meuseventos.ui.list.ListFragment"
         android:label="list_fragment"
         tools:layout="@layout/list_fragment" >
         <action
@@ -30,7 +30,7 @@
     </fragment>
     <fragment
         android:id="@+id/loginFragment"
-        android:name="com.example.meuseventos.ui.login.LoginFragment"
+        android:name="com.project.meuseventos.ui.login.LoginFragment"
         android:label="login_fragment"
         tools:layout="@layout/login_fragment" >
         <action
@@ -42,7 +42,7 @@
     </fragment>
     <fragment
         android:id="@+id/convidadosFragment"
-        android:name="com.example.meuseventos.ui.convidados.ConvidadosFragment"
+        android:name="com.project.meuseventos.ui.convidados.ConvidadosFragment"
         android:label="convidados_fragment"
         tools:layout="@layout/convidados_fragment" />
 </navigation>

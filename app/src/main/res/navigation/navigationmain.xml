@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/navigationmain"
+    app:startDestination="@id/loginFragment">
+
+    <fragment
+        android:id="@+id/cadastroFragment"
+        android:name="com.example.meuseventos.ui.cadastro.CadastroFragment"
+        android:label="cadastro_fragment"
+        tools:layout="@layout/cadastro_fragment" />
+    <fragment
+        android:id="@+id/formFragment"
+        android:name="com.example.meuseventos.ui.form.FormFragment"
+        android:label="form_fragment"
+        tools:layout="@layout/form_fragment" >
+        <action
+            android:id="@+id/action_formFragment_to_convidadosFragment"
+            app:destination="@id/convidadosFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/listFragment"
+        android:name="com.example.meuseventos.ui.list.ListFragment"
+        android:label="list_fragment"
+        tools:layout="@layout/list_fragment" >
+        <action
+            android:id="@+id/action_listFragment_to_formFragment"
+            app:destination="@id/formFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/loginFragment"
+        android:name="com.example.meuseventos.ui.login.LoginFragment"
+        android:label="login_fragment"
+        tools:layout="@layout/login_fragment" >
+        <action
+            android:id="@+id/action_loginFragment_to_cadastroFragment"
+            app:destination="@id/cadastroFragment" />
+        <action
+            android:id="@+id/action_loginFragment_to_listFragment"
+            app:destination="@id/listFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/convidadosFragment"
+        android:name="com.example.meuseventos.ui.convidados.ConvidadosFragment"
+        android:label="convidados_fragment"
+        tools:layout="@layout/convidados_fragment" />
+</navigation>

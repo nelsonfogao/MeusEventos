@@ -17,7 +17,7 @@ Roberto Batista
 
 ![Cadastro](2-cadastro.png)
 
-![Lista de eventos](3-eventos.png)
+![Lista de eventos](3-Eventos.png)
 
 ![Criacao de eventos](4-NovoEvento.png)
 

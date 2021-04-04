@@ -7,9 +7,13 @@ utilizando login autenticado no firebase, utilização do fireStore criptografan
 
 
 Grupo:
+
 Eloy Barbosa
+
 Henrique Milioli
+
 Nelson Barros
+
 Roberto Batista
 
 
